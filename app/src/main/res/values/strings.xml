@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QuizAppComputerScienceJC</string>
+    <string name="question1">Computer Science is the study of computer</string>
+    <string name="question2">The CPU is responsible for executing instructions for the computer</string>
+    <string name="question3">Each computer has its own machine language which is made of stream of 0s and 1s</string>
+    <string name="question4">Pseudo-code uses exact programming language syntax to represent a module in the larger program</string>
+    <string name="question5">Every program must have exactly one function named main</string>
+    <string name="True">True</string>
+    <string name="False">False</string>
+    <string name="hundred">You are right, this is your score: 100%</string>
+    <string name="zero">You are wrong, this is your score: 0%</string>
+    <string name="right_toast">you are right</string>
+    <string name="wrong_toast">you are wrong</string>
+</resources>
+
