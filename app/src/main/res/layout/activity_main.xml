@@ -31,17 +31,17 @@
             android:onClick="onClick"
             android:text="@string/False" />
     </RadioGroup>
-    <TextView
-        android:id="@+id/rightAnswer"
-        android:textColor="#00f7ff"
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""/>
-    <TextView
-        android:id="@+id/wrongAnswer"
-        android:textColor="#cec10e"
+        android:text="@string/nextButton"
+        android:id="@+id/NextButton"/>
+
+    <ImageView
+        android:id="@+id/computerPic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""/>
+        android:src="@drawable/computer" />
+
 </LinearLayout>
 

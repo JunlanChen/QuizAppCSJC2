@@ -4,6 +4,7 @@ public class Question {
     String question;
     boolean correctAnswer;
 
+
     public Question(String newQuestion, boolean newCorrectAnswer){
         question = newQuestion;
         correctAnswer = newCorrectAnswer;

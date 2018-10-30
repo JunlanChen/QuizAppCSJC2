@@ -11,5 +11,6 @@
     <string name="zero">You are wrong, this is your score: 0%</string>
     <string name="right_toast">you are right</string>
     <string name="wrong_toast">you are wrong</string>
+    <string name="nextButton">Next</string>
 </resources>
 
