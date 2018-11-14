@@ -13,24 +13,17 @@
                       <PersistentState>
                         <option name="children">
                           <map>
-                            <entry key="actionbar">
+                            <entry key="launcher">
                               <value>
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="C:\Users\1203397\Pictures\apple-imac-215-intel-core-i5-8gb-ram-1tb-hdd-computer-w-d-20180924141753647_643441.jpg" />
-                                      <entry key="outputName" value="computer" />
+                                      <entry key="foregroundImage" value="C:\Users\1203397\Downloads\815v3Mjz6eL._SL1500_.jpg" />
                                     </map>
                                   </option>
                                 </PersistentState>
                               </value>
                             </entry>
-                          </map>
-                        </option>
-                        <option name="values">
-                          <map>
-                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>
