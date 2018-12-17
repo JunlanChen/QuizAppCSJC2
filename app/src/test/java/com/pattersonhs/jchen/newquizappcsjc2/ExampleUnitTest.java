@@ -1,4 +1,4 @@
-package com.pattersonhs.jchen.quizappcsjc;
+package com.pattersonhs.jchen.newquizappcsjc2;
 
 import org.junit.Test;
 

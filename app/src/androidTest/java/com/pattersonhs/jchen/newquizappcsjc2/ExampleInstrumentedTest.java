@@ -1,4 +1,4 @@
-package com.pattersonhs.jchen.quizappcsjc;
+package com.pattersonhs.jchen.newquizappcsjc2;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

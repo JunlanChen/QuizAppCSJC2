@@ -12,5 +12,6 @@
     <string name="right_toast">you are right</string>
     <string name="wrong_toast">you are wrong</string>
     <string name="nextButton">Next</string>
+    <string name="Zero">0</string>
 </resources>
 
