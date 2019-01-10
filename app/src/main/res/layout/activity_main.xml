@@ -1,3 +1,7 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
 <LinearLayout
     android:layout_height="match_parent"
     android:layout_width="match_parent"
@@ -5,11 +9,13 @@
     android:orientation="vertical"
     android:background="#FFFFCC"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
     <TextView
         android:id="@+id/quiz"
         android:textColor="#e20c16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="40dp"
         android:text="@string/question1"/>
     <RadioGroup
         android:layout_width="wrap_content"
@@ -49,10 +55,11 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="reset"/>
+        android:id="@+id/reset"
+        android:text="@string/reset"/>
 
 </LinearLayout>
-
+</ScrollView>
 <!--https://www.amazon.com/Apple-MC510LL-27-Inch-Discontinued-Manufacturer/dp/B00361EZX8-->
 
 

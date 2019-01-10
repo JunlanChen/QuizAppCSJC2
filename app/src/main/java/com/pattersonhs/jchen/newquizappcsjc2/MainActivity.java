@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     EditText typeName;
     String name;
     HighScore highscore;
+    Button reset;
 
 
 
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         trueButton = (RadioButton) findViewById(R.id.Truebutton);
         falseButton = (RadioButton) findViewById(R.id.Falsebutton);
+        reset = (Button) findViewById(R.id.reset);
         questionText = (TextView) findViewById(R.id.quiz);
         nextButton = (Button) findViewById(R.id.NextButton);
         typeName = (EditText) findViewById(R.id.typeName);
@@ -127,6 +129,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+
 
 
         /*//myRef.addValueEventListener(new ValueEventListener() {
