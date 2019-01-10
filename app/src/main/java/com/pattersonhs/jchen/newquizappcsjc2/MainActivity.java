@@ -129,6 +129,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                currentIndex = -1;
+                score = 0;
+            }
+        });
 
 
 

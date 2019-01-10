@@ -21,8 +21,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/ScoreActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/ScoreActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_score.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_score.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,20 +45,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="58" column="35" lean-forward="false" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+            <state relative-caret-position="1003">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#638#657#0" expanded="true" />
                 <element signature="e#1135#1149#0" expanded="true" />
                 <element signature="e#1416#1431#0" expanded="true" />
                 <element signature="e#1612#1630#0" expanded="true" />
                 <element signature="e#1755#1775#0" expanded="true" />
+                <element signature="e#2155#2170#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +78,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+            <state relative-caret-position="324">
+              <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2937#3482#0" expanded="true" />
@@ -91,6 +92,8 @@
                 <element signature="e#4069#4070#0" expanded="true" />
                 <element signature="e#4112#4923#0" expanded="true" />
                 <element signature="e#4922#4923#0" expanded="true" />
+                <element signature="e#4959#5137#0" expanded="true" />
+                <element signature="e#5136#5137#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,9 +102,28 @@
       <file leaf-file-name="ScoreActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/ScoreActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="357">
+              <caret line="26" column="88" lean-forward="false" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+              <folding>
+                <element signature="e#754#1003#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_score.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_score.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <folding>
+                <element signature="e#417#431#0" expanded="true" />
+                <element signature="e#588#603#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2158,8 +2180,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/ScoreActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_score.xml" />
       </list>
     </option>
   </component>
@@ -2455,6 +2479,7 @@
             <element signature="e#1416#1431#0" expanded="true" />
             <element signature="e#1612#1630#0" expanded="true" />
             <element signature="e#1755#1775#0" expanded="true" />
+            <element signature="e#2155#2170#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2463,7 +2488,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
+          <folding>
+            <element signature="e#754#1003#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2491,23 +2519,9 @@
             <element signature="e#4069#4070#0" expanded="true" />
             <element signature="e#4112#4923#0" expanded="true" />
             <element signature="e#4922#4923#0" expanded="true" />
+            <element signature="e#4959#5137#0" expanded="true" />
+            <element signature="e#5136#5137#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/HighScore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/ScoreActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2519,6 +2533,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#638#657#0" expanded="true" />
+            <element signature="e#1135#1149#0" expanded="true" />
+            <element signature="e#1416#1431#0" expanded="true" />
+            <element signature="e#1612#1630#0" expanded="true" />
+            <element signature="e#1755#1775#0" expanded="true" />
+            <element signature="e#2155#2170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -2527,10 +2559,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/HighScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+        <state relative-caret-position="324">
+          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2937#3482#0" expanded="true" />
@@ -2543,23 +2583,33 @@
             <element signature="e#4069#4070#0" expanded="true" />
             <element signature="e#4112#4923#0" expanded="true" />
             <element signature="e#4922#4923#0" expanded="true" />
+            <element signature="e#4959#5137#0" expanded="true" />
+            <element signature="e#5136#5137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pattersonhs/jchen/newquizappcsjc2/ScoreActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="88" lean-forward="false" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+          <folding>
+            <element signature="e#754#1003#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_score.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="58" column="35" lean-forward="false" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
-            <element signature="e#638#657#0" expanded="true" />
-            <element signature="e#1135#1149#0" expanded="true" />
-            <element signature="e#1416#1431#0" expanded="true" />
-            <element signature="e#1612#1630#0" expanded="true" />
-            <element signature="e#1755#1775#0" expanded="true" />
+            <element signature="e#417#431#0" expanded="true" />
+            <element signature="e#588#603#0" expanded="true" />
           </folding>
         </state>
       </provider>
