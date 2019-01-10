@@ -10,7 +10,7 @@
         android:textColor="#e20c16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question1" />
+        android:text="@string/question1"/>
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,17 +31,25 @@
             android:onClick="onClick"
             android:text="@string/False" />
     </RadioGroup>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/typeName"
+        android:hint="@string/yourName"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nextButton"
         android:id="@+id/NextButton"/>
-
     <ImageView
         android:id="@+id/computerPic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/computer" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="reset"/>
 
 </LinearLayout>
 

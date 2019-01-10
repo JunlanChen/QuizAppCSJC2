@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -32,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
     Question currentQ;
     final String TAG = "aaaaaaaaaaaaaaaaa";
     int score;
+    EditText typeName;
+    String name;
+    HighScore highscore;
+
 
 
     //TextView rightAnswer;
@@ -44,15 +49,17 @@ public class MainActivity extends AppCompatActivity {
         falseButton = (RadioButton) findViewById(R.id.Falsebutton);
         questionText = (TextView) findViewById(R.id.quiz);
         nextButton = (Button) findViewById(R.id.NextButton);
+        typeName = (EditText) findViewById(R.id.typeName);
         currentIndex = 0;
         score = 0;
+
         //rightAnswer = (TextView) findViewById(R.id.rightAnswer);
         //wrongAnswer = (TextView)findViewById(R.id.wrongAnswer);
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
+        final FirebaseDatabase database = FirebaseDatabase.getInstance();
+        final DatabaseReference myRef = database.getReference("message");
 
-        myRef.setValue("Hello, World!");
+        myRef.setValue(null);
 
         question1 = new Question("Computer Science is the study of computer",false);
         question2 = new Question("The CPU is responsible for executing instructions for the computer",true);
@@ -72,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 boolean givenAnswer = true;
                 if (givenAnswer == currentQ.isCorrectAnswer())
                 {
+                    score +=1;
                     toastMessageID = R.string.right_toast;
                 }
                 else {
@@ -87,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 boolean givenAnswer = false;
                 if (givenAnswer == currentQ.isCorrectAnswer())
                 {
+                    score +=1;
                     toastMessageID = R.string.right_toast;
                 }
                 else {
@@ -100,22 +109,29 @@ public class MainActivity extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                currentIndex = (currentIndex +1 );
-                questionText.setText(currentQ.getQuestion());
+                name = typeName.getText().toString();
+                currentIndex = (currentIndex +1);
                 if(currentIndex >= 5) {
+                    Log.d(TAG, "" + score);
+                    highscore = new HighScore(name,score,1);
                     Intent scoreIntent1 = new Intent(MainActivity.this, ScoreActivity.class);
+                    scoreIntent1.putExtra("add",score);
+                    //myRef.setValue(highscore);
                     startActivity(scoreIntent1);
+
                 }
                 else
                 {
                     currentQ = questions[currentIndex];
+                    questionText.setText(currentQ.getQuestion());
                 }
             }
         });
 
-        myRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+
+        /*//myRef.addValueEventListener(new ValueEventListener() {
+           // @Override
+            //public void onDataChange(DataSnapshot dataSnapshot) {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
                 String value = dataSnapshot.getValue(String.class);
@@ -127,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
                 // Failed to read value
                 Log.w(TAG, "Failed to read value.", error.toException());
             }
-        });
+        });*/
     }
 
 

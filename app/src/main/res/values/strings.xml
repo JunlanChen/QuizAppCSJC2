@@ -13,5 +13,6 @@
     <string name="wrong_toast">you are wrong</string>
     <string name="nextButton">Next</string>
     <string name="Zero">0</string>
+    <string name="yourName">Type your name here</string>
 </resources>
 
